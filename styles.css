@@ -31,6 +31,7 @@ section {
 
 .container {
   padding: 50px 0;
+  width: 100%;
 }
 
 .row {
@@ -63,6 +64,10 @@ section {
   text-align: center;
   font-size: 48px;
   margin-bottom: 60px;
+}
+
+.fa-b {
+  margin-right: 2px;
 }
 
 .orange {
@@ -288,3 +293,51 @@ PROJECTS
 }
 
 
+/*
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+  display: flex;
+  padding: 6% 0%;
+}
+
+.footer__container {
+  margin: 0 auto;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 36px;
+}
+
+.footer__logo,
+.footer__social--link,
+.footer__copyright {
+  color: white;
+}
+
+.footer__social--list {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.footer__copyright {
+  margin-top: 16px;
+}
