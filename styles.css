@@ -744,6 +744,10 @@ left = 80vw
   .modal__half {
     width: 100%;
   }
+
+  .shape {
+    display: none;
+  }
 }
 
 
